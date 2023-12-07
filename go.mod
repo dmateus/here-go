@@ -1,4 +1,4 @@
-module go.einride.tech/here
+module github.com/dmateus/here-go
 
 go 1.14
 

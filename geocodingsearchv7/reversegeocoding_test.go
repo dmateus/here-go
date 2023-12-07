@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"go.einride.tech/here/geocodingsearchv7"
+	"github.com/dmateus/here-go/geocodingsearchv7"
 	"gotest.tools/v3/assert"
 )
 

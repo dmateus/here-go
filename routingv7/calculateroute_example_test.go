@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"go.einride.tech/here/routingv7"
+	"github.com/dmateus/here-go/routingv7"
 )
 
 func ExampleRouteService_CalculateRoute() {

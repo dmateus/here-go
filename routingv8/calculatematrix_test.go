@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"go.einride.tech/here/routingv8"
+	"github.com/dmateus/here-go/routingv8"
 	"gotest.tools/v3/assert"
 )
 

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"go.einride.tech/here/routingv8"
+	"github.com/dmateus/here-go/routingv8"
 )
 
 func main() {

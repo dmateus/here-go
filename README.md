@@ -1,7 +1,7 @@
 HERE Go
 =======
 
-[![PkgGoDev](https://pkg.go.dev/badge/go.einride.tech/here)](https://pkg.go.dev/go.einride.tech/here) [![GoReportCard](https://goreportcard.com/badge/go.einride.tech/here)](https://goreportcard.com/report/go.einride.tech/here) [![Codecov](https://codecov.io/gh/einride/here-go/branch/master/graph/badge.svg)](https://codecov.io/gh/einride/here-go)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/dmateus/here-go)](https://pkg.go.dev/github.com/dmateus/here-go) [![GoReportCard](https://goreportcard.com/badge/github.com/dmateus/here-go)](https://goreportcard.com/report/github.com/dmateus/here-go) [![Codecov](https://codecov.io/gh/einride/here-go/branch/master/graph/badge.svg)](https://codecov.io/gh/einride/here-go)
 
 Go SDK for the HERE Maps API.
 
@@ -14,7 +14,7 @@ Installing
 ----------
 
 ```bash
-$ go get go.einride.tech/here
+$ go get github.com/dmateus/here-go
 ```
 
 Authentication
@@ -40,7 +40,7 @@ import (
 	"net/http"
 	"os"
 
-	"go.einride.tech/here/routingv7"
+	"github.com/dmateus/here-go/routingv7"
 )
 
 func main() {
@@ -88,7 +88,7 @@ import (
 	"net/http"
 	"os"
 
-	"go.einride.tech/here/routingv8"
+	"github.com/dmateus/here-go/routingv8"
 )
 
 func main() {
@@ -150,7 +150,7 @@ import (
 	"net/http"
 	"os"
 
-	"go.einride.tech/here/geocodingsearchv7"
+	"github.com/dmateus/here-go/geocodingsearchv7"
 )
 
 func main() {

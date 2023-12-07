@@ -17,6 +17,8 @@ type GeocodingRequest struct {
 	// Results will be returned if they are located within the specified area.
 	// a country (or multiple countries), provided as comma-separated ISO 3166-1 alpha-3 country codes.
 	In *string
+	// Language to be used for result rendering. If not set, the default language of the country is used.
+	Lang *string
 }
 
 type AddressRequest struct {
@@ -54,6 +56,8 @@ type ReverseGeocodingRequest struct {
 	// Results will be returned if they are located within the specified area.
 	// a country (or multiple countries), provided as comma-separated ISO 3166-1 alpha-3 country codes.
 	In *string
+	// Language to be used for result rendering. If not set, the default language of the country is used.
+	Lang *string
 }
 
 type BatchGeocoderUploadRequest struct {

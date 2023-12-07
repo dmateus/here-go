@@ -30,6 +30,9 @@ func (s *ReverseGeocodingService) ReverseGeocoding(
 	if req.In != nil {
 		values.Add("in", *req.In)
 	}
+	if req.Lang != nil {
+		values.Add("lang", *req.Lang)
+	}
 
 	r, err := s.Client.NewRequest(ctx, u, http.MethodGet, values.Encode(), nil)
 	if err != nil {
